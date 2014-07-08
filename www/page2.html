@@ -18,18 +18,7 @@
     #statements {position:relative;top:50px;}
     #attachphoto {position:relative;top:60px;}
     
-      body{
-      background-color: #333; 
-      background-image: url("images/product.original.jpg");
-      background-image: responsive;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size:100%;
-
-      font-family: 'Open Sans', sans-serif;
-      padding-top:60px;
-      padding-bottom: 60px;   
-    } 
+   
 </style>
 <script src="phonegap.js"></script>
 <script type="text/javascript" charset="utf-8">
@@ -53,7 +42,7 @@
             destinationType: Camera.DestinationType.FILE_URI,
             saveToPhotoAlbum: true,
             targetWidth: 200,
-            targetHeight: 300,
+            targetHeight: 200,
         });
     }
 
