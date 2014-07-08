@@ -18,7 +18,7 @@
     </author>
             
          <icon src= "images/classpic_icon200px.png" />
-<preference name="Orientation" value="landscape"/>
+<preference name="orientation" value="landscape" />
       
 <feature name="http://api.phonegap.com/1.0/camera"/>
         <gap:platform name="android" />
